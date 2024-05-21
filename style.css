@@ -1,0 +1,124 @@
+* {
+    font-size: 16px;
+    font-family: 'overlock',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url("https://pixabay.com/get/g91b277f8f1ceb31aa85e9f87f454085f611ff37777ededff7749f703445585cefd0bb05762590e5fea6874e059dab756883fd97b017a65fd2d4c979775579d3a_1920.jpg");
+    color: #ddd;
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.cabecalho {
+    border: 2px solid #e7be06;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 3rem auto 0 auto ;
+    background-color: rgba(28, 28, 28, 0.3);
+    height: 6.5rem;
+    padding: 1.25rem;
+}
+
+.cabecalho-marca { 
+    align-self: center;
+}
+
+.cabecalho-marca-link {
+    font-family: "Titillium Web", sans-serif;
+    color: #eecc0a;
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.cabecalho-menu {
+    align-self: center;
+    color: #eecc0a;
+    
+}
+.cabecalho-menu-lista{
+   color: #eecc0a;
+    list-style-type: none;
+    display: flex;
+}
+
+.cabecalho-menu-lista-link{
+    color: #eecc0a;
+    text-decoration: none;
+    padding: 0.25rem;
+    margin: 0 0.625rem;
+    font-size: 1.125rem;
+}
+
+.cabecalho-menu-lista-link:hover {
+    color:rgb(238, 231, 230);
+    border-bottom: 2px solid rgb(223, 209, 207);
+    background-color: rgba(223, 213, 213, 0.65);
+
+}
+
+.conteudo{
+    height: calc(100vh - 9.5rem);
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.conteudo-caixa{
+    width: 50%;
+    background-color: rgba(28, 28, 28, 0.65);
+    border-bottom: 2px solid whitesmoke;
+    padding: 2rem;
+
+}
+.conteudo-subtitulo{
+    color: #eecc0a;
+    font-size: 2.5rem;
+    font-style: italic;
+
+}
+
+.conteudo-frase{
+    color: #f1e289;
+    font-size: 1.5rem;
+    font-style: italic;
+
+}
+
+.rodape{
+    border: 1px solid rgb(226, 226, 238);
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-esquerda{
+    border: 1px solid yellow;
+    min-height: 15rem;
+    color: #f1e289;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.rodape-direita{
+    border: 1px solid rgb(223, 230, 230);
+    min-height: 15rem;
+    color: #1d0101;
+    font-size: 1.5rem;
+    font-style: italic;
+} 
+.empresa {
+     color: rgb(237, 237, 240)
+    }
+    
